@@ -1,0 +1,382 @@
+/*
+font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    margin-top: -1%;
+    top: 105%;
+    width: 230vh;
+    height: 111vh;
+    position: relative;
+    margin-left: -50px;
+}
+
+#imgNav {
+    display: block;
+    position: relative;
+    width: 210px;
+    height: 240px;
+    margin-top: -59%;
+    margin-left: 5px;
+
+}
+
+
+.link-nav {
+    cursor: pointer;
+    position: relative;
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2px;
+    letter-spacing: 0.2px;
+    bottom: 130px;
+    left: 300px;
+
+
+}
+
+#imgMain{
+
+    width: 350px;
+    height: 350px;
+    margin-bottom: -100px;
+    margin-left: 60px;
+}
+h1 {
+    display: block;
+    position: relative;
+    color: var(--light-text-color, #dab71b);
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-top: 450px;
+    margin-left: 62px;
+    background-color: #ffffff5a;
+    width: 700px;
+    height: 80px;
+    margin-bottom: 10px;
+
+}
+
+#slogam {
+    position: relative;
+    margin-top: -10px;
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-left: 62px;
+
+}
+
+
+
+#h3main {
+    color: var(--text-color, #000000);
+    font-family: Montserrat;
+    font-size: 24px;
+    width: 200%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    margin-top: -50%;
+    margin-left: 10px;
+}
+
+#contacts {
+    position: relative;
+    background-color: #ffffff8e;
+    display: flex;
+    width: 450px;
+    padding: 150px 100px 50px 100px;
+    flex-direction: column;
+    display: inline-flex;
+    left: 1350px;
+    top: -500px;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#iconWhatsApp{
+    top: 9px;
+    width: 32px;
+    height: 32px;
+    margin-left: -100px;
+    margin-right: 10px;
+}
+
+#contactForWhatsApp {
+    margin-top: -20px;
+    display: flex;
+    padding: 10px 175px 10px 175px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--secondary-color-1, #0b3b1c);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    border: none;
+    margin-left: -60px;
+}
+
+
+#contactWhatsAppText{
+    display: block;
+    text-decoration:none;
+    color: var(--light-text-color, #FFF);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+    margin-left: 77px;
+    margin-bottom: 10px;
+}
+
+#contactForInstagram{
+    margin-top: -20px;
+    display: flex;
+    padding: 10px 175px 10px 175px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background-color: #737373;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    border: none;
+    margin-left: -60px;
+}
+
+#contactInstagramText{
+    display: block;
+    text-decoration:none;
+    color: var(--light-text-color, #f4f3ee);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+    margin-left: 77px;
+    margin-bottom: 12px;
+}
+
+#IconInstagram{
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-left: -109px;
+    margin-right: 10px;
+}
+
+#scrollDown{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 450px;
+    margin-top: 120px;
+}
+
+#localization{
+    position: relative;
+    background-color: #737373;
+    height: 1100px;
+    margin-top: -155px;
+    padding-top: 150px;
+}
+
+#h2Location{
+    color: var(--text-color, #e0dfdf);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-left: 840px;
+    margin-top: -77px;
+    margin-bottom: 15px;
+
+}
+
+
+
+#h2Section {
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-left: 820px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+
+
+#productsSection{
+    margin-top: 100px;
+}
+
+
+
+
+.products {
+    display: flex;
+    width: 326px;
+    padding: 20px 50px 0px 50px;
+    align-items: center;
+    gap: 15px;
+    background: var(--second-text-color, #1d5309);
+    margin-top: 89px;
+    display: inline-block;
+    margin-left: 240px;
+    border-radius: 6px;
+    border: #40BB15;
+}
+
+h5 {
+    display: block;
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.cardDescription {
+    position: relative;
+    width: 328px;
+    padding: 40px 45px;
+    margin-top: 25px;
+    left: -51.1px;
+    border-radius: 3px 5px 3px 5px;
+    border: #40BB15;
+    background: #F4F4F4;
+}
+
+.description {
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    width: 250px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+}
+
+section {
+    margin-bottom: 177px;
+}
+
+.aboutUs {
+    background: #737373;
+    height: 500px;
+    align-self: stretch;
+
+}
+
+.h2Footer {
+    color: var(--light-background-color, #FFF);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.pFooter {
+    margin-top: 45px;
+    margin-left: 20px;
+    flex-shrink: 30;
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+
+@media all and (display-mode: fullscreen)  {
+    #imgNav {
+        display: block;
+        position: relative;
+        width: 220px;
+        height: 255px;
+        margin-top: -65%;
+        margin-left: 5px;
+    }
+    h1 {
+        display: block;
+        position: relative;
+        color: var(--light-text-color, #dab71b);
+        font-family: Montserrat;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        margin-top: 330px;
+        margin-left: 62px;
+    
+    }
+
+    h4 {
+        position: relative;
+        margin-top: -10px;
+        color: var(--light-text-color, #FFF);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        margin-left: 62px;
+    
+    }
+    
+
+}
